@@ -1,15 +1,11 @@
 import React from 'react'
-import   Logo  from '../../assets/img/slider/01-slide-1.jpg'
+import   bannerLogo1  from '../../../../assets/img/slider/01-slide-1.jpg'
+import   bannerLogo2  from '../../../../assets/img/slider/01-slide-2.jpg'
+import   bannerLogo3 from '../../../../assets/img/slider/01-slide-3.jpg'
 
 
 export default function Banner() {
-    const Background =Logo;
-    console.log(Background);
-    var sectionStyle = {
-      width: "100%",
-      height: "400px",
-      backgroundImage: `url(${Background})`
-    };
+
   return (
 
 
@@ -17,7 +13,7 @@ export default function Banner() {
 <div className="slider-area">
             <div className="swiper-container slider__active">
                 <div className="slider-wrapper swiper-wrapper">
-                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" style={sectionStyle}>
+                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" style={{backgroundImage:`url(${bannerLogo1})`}}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-5">
@@ -35,7 +31,7 @@ export default function Banner() {
                             </div>
                         </div>
                     </div>
-                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="assets/img/slider/01-slide-2.jpg">
+                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" style={{backgroundImage:`url(${bannerLogo2})`}}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-5">
@@ -53,7 +49,7 @@ export default function Banner() {
                             </div>
                         </div>
                     </div>
-                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" data-background="assets/img/slider/01-slide-3.jpg">
+                    <div className="single-slider swiper-slide slider-height d-flex align-items-center" style={{backgroundImage:`url(${bannerLogo3})`}}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-5">

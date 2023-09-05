@@ -1,18 +1,19 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Home from './pages/home'
+import Shop from './pages/shop'
+import About from './pages/about'
 
-import Home from "./components/header"
 
-import Banner from './components/Banner'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     {/* <Index></Index>   */}
-     <Home></Home>
-      <Banner></Banner>
+      {/* <Index></Index>   */}
+    
+    {/* <Home></Home> */}
+    {/* <Shop></Shop> */}
+      <About></About>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
