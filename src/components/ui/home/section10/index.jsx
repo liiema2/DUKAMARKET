@@ -9,22 +9,22 @@ export default function index() {
             <div className="container">
                 <div className="brand-slider swiper-container pt-50 pb-45">
                     <div className="swiper-wrapper">
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-1.jpg" alt="brand"/></a>
                         </div>
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-2.jpg" alt="brand"/></a>
                         </div>
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-3.jpg" alt="brand"/></a>
                         </div>
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-4.jpg" alt="brand"/></a>
                         </div>
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-5.jpg" alt="brand"/></a>
                         </div>
-                        <div className="brand-item w-img swiper-slide">
+                        <div className="product__item swiper-slide w-25">
                             <a href="#"><img src="assets/img/brand/brand-6.jpg" alt="brand"/></a>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Home from './pages/home'
-import Shop from './pages/shop'
+// import Shop from './pages/shop'
 import About from './pages/about'
 
 
@@ -9,9 +9,11 @@ function App() {
     <>
       {/* <Index></Index>   */}
     
-    {/* <Home></Home> */}
+    <Home></Home>
     {/* <Shop></Shop> */}
-      <About></About>
+      {/* <About></About> */}
+
+      
     </>
   );
 }
