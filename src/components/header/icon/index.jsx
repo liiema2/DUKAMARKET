@@ -4,11 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {  faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import useCrud from '../.../../../../../hook/useCRUD.js';
-
+import AddItem from "../additem"
+import useCrud from '../../../hook/useCRUD.js';
 export default function index() {
+
+  const {shop}=useCrud();
+  console.log(shop);
   return (
- 
+
 
 <div className="col-xl-4 col-lg-5 col-md-8 col-sm-8">
                         <div className="header-action">
@@ -59,24 +62,8 @@ export default function index() {
                                               </div>
                                             </li>
                                             <li>
-                                              <div className="cart__item d-flex justify-content-between align-items-center">
-                                                <div className="cart__inner d-flex">
-                                                  <div className="cart__thumb">
-                                                    <a href="product-details.html">
-                                                      <img src="assets/img/cart/20.jpg" alt=""/>
-                                                    </a>
-                                                  </div>
-                                                  <div className="cart__details">
-                                                    <h6><a href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a></h6>
-                                                    <div className="cart__price">
-                                                      <span>$255.00</span>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <div className="cart__del">
-                                                    <a href="#"><i className="fal fa-times"></i></a>
-                                                </div>
-                                              </div>
+                                         
+                                              <AddItem></AddItem>
                                             </li>
 
                                             <li>

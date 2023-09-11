@@ -5,7 +5,12 @@ import Icon from "../../header/icon"
 import Nav from "../../navigationBar"
 import Menu from "../../menu"
 import { Link } from 'react-router-dom'
+// import { UseSelector } from 'react-redux'
+
 export default function header() {
+
+
+   
     const Background  ='assets/img/bg/menu-item.jpg'
   return ( 
     <header className="header d-blue-bg">
