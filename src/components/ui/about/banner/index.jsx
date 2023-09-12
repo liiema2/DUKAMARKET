@@ -12,7 +12,7 @@ export default function index() {
                                 <h3>About Us</h3>
                                 <p>A wonderful serenity has taken possession of my entire soul, like these <br/> sweet mornings of spring which I enjoy with my whole heart.</p>
                                 <div className="page-bottom-btn mt-55">
-                                    <a href="shop.html" className="st-btn-4">Discover now</a>
+                                    <a href="shop.html" className="st-btn-4">Discover now 1</a>
                                 </div>
                             </div>
                         </div>

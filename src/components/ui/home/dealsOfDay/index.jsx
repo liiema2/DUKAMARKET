@@ -3,7 +3,8 @@ import React from 'react'
 // import Slider from 'react-slick';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css'
-
+import TimeDeal from '../../../timeDealofday'
+import  List from '../../../slider/dealsOfDay.jsx'
 export default function index() {
  
 
@@ -22,16 +23,7 @@ export default function index() {
                             </div>
                             <div className="offer-time">
                                 <span className="offer-title d-none d-sm-block">Hurry Up! Offer ends in:</span>
-                                <div className="countdown">
-                                    <div className="countdown-inner b-radius" data-countdown="" data-date="Mar 02 2022 20:20:22">
-                                        <ul className="text-center">
-                                            <li><span data-days="">36</span> Days</li>
-                                            <li><span data-hours="">8</span> Hours</li>
-                                            <li><span data-minutes="">16</span> Mins</li>
-                                            <li><span data-seconds="">54</span> Secs</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                             <TimeDeal></TimeDeal>
                             </div>
                         </div>
                     </div>
@@ -40,11 +32,11 @@ export default function index() {
                     <div className="product-bs-slider">
                         <div className="product-slider swiper-container">
                             <div className="swiper-wrapper" >
-                                <div className="product__item swiper-slide w-25">
+                                {/* <div className="product__item swiper-slide w-25">
                                     <div className="product__thumb fix">
                                         <div className="product-image w-img ">
                                             <a href="product-details.html">
-                                                <img src="/assets/img/product/tp-1.jpg" alt="product"/>
+                                                <img src="c" alt="product"/>
                                             </a>
                                         </div>
                                         <div className="product__offer">
@@ -298,8 +290,10 @@ export default function index() {
                                         Add to Cart
                                         </button>
                                     </div>
-                                </div>
-                                <div className="product__item swiper-slide w-25">
+                                </div> */}
+                                <List></List>
+
+                                {/* <div className="product__item swiper-slide w-25">
                                     <div className="product__thumb fix">
                                         <div className="product-image w-img">
                                             <a href="product-details.html">
@@ -348,7 +342,7 @@ export default function index() {
                                         Add to Cart
                                         </button>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         

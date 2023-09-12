@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Layout from "./Layout"
 import Shop from "./pages/Shop"
 import About from "./pages/about"
+// import headerHome from "./seo/home.jsx"
 const router = createBrowserRouter([
   {
     path: "/",

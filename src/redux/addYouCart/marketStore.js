@@ -15,13 +15,17 @@ const shoppingCart = createSlice({
   initialState, 
   reducers: {
     addItem(state, action) {
-   
-      const newItem = action.payload;
-      state.push(newItem);
+      const nextId = state.length > 0 ? Math.max(...state.map(item => item.id)) + 1 : 1;
+      const newItem = {
+        id: nextId,
+        name: action.payload,
+        price: 300,
+        img: "assets/img/cart/20.jpg"
+      };
+      return [...state, newItem];
     },
     editItem() {},
     removeItem() {},
- 
   },
 });
 

@@ -7,6 +7,7 @@ import Technology from "../../components/ui/about/technology"
 import Team from "../../components/ui/about/team"
 import Location from "../../components/ui/about/locationstore"
 import Follow from "../../components/ui/about/follow"
+import Seo from "../../seo/about.jsx"
 export default function index() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function index() {
         <Location></Location>
         <Follow></Follow>
         {/* <Footer></Footer> */}
+        <Seo></Seo>
     </div>
   )
 }
